@@ -130,12 +130,10 @@ def Calculate():
         rule5 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['OnceWeek'] & wl['UL'] & bmi['Normal'], cd['NCD'])
         rule6 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['OnceWeek'] & wl['UL'] & bmi['OW'], cd['NCD'])
         rule7 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['UW'], cd['EL'])
-        rule8 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['Normal'],
-                          cd['NCD'])
+        rule8 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['Normal'],cd['NCD'])
         rule9 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['OW'], cd['EL'])
         rule10 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['UW'], cd['VVL'])
-        rule11 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['Normal'],
-                           cd['EL'])
+        rule11 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['Normal'],cd['EL'])
         rule12 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['OW'], cd['VVL'])
         rule13 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['Daily'] & wl['US'] & bmi['UW'], cd['VVL'])
         rule14 = ctrl.Rule(ap['Mild'] & an['Mild'] & da['Mild'] & vom['Daily'] & wl['US'] & bmi['Normal'], cd['EL'])
