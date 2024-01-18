@@ -465,8 +465,7 @@ def Calculate():
         rule332 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['Normal'], cd['L'])
         rule333 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['OW'], cd['ML'])
         rule334 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['UW'], cd['M'])
-        rule335 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['Normal'],
-                            cd['ML'])
+        rule335 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['Normal'],cd['ML'])
         rule336 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['OW'], cd['M'])
         rule337 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['Daily'] & wl['US'] & bmi['UW'], cd['M'])
         rule338 = ctrl.Rule(ap['Sev'] & an['Mild'] & da['Mild'] & vom['Daily'] & wl['US'] & bmi['Normal'], cd['ML'])
