@@ -1,4 +1,4 @@
-from tkinter import *
+
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
@@ -296,12 +296,10 @@ def Calculate():
         rule167 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['OnceWeek'] & wl['UL'] & bmi['Normal'], cd['VVL'])
         rule168 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['OnceWeek'] & wl['UL'] & bmi['OW'], cd['VL'])
         rule169 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['UW'], cd['VL'])
-        rule170 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['Normal'],
-                            cd['VVL'])
+        rule170 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['Normal'], cd['VVL'])
         rule171 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['US'] & bmi['OW'], cd['VL'])
         rule172 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['UW'], cd['L'])
-        rule173 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['Normal'],
-                            cd['VL'])
+        rule173 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['Normal'], cd['VL'])
         rule174 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['ThriceWeek'] & wl['UL'] & bmi['OW'], cd['L'])
         rule175 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['Daily'] & wl['US'] & bmi['UW'], cd['L'])
         rule176 = ctrl.Rule(ap['Mod'] & an['Mild'] & da['Mild'] & vom['Daily'] & wl['US'] & bmi['Normal'], cd['VL'])
