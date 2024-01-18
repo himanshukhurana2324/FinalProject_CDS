@@ -1,5 +1,5 @@
 """
-controlsystem.py : Framework for the new fuzzy logic control system API. //to be changed in the skfuzzy library to reduce the processing time
+controlsystem.py : Framework for the new fuzzy logic control system API. // To be changed in the skfuzzy library to reduce the processing time
 """
 from __future__ import print_function, division
 
