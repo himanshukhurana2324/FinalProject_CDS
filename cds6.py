@@ -1,4 +1,4 @@
-
+                           # Purpose: To calculate the result of the symptoms using all the Permutations
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
@@ -7,6 +7,7 @@ global Abdominal_Pain_var, Anemia_var, Diarrhea_var, Vomiting_var, Weight_Loss_v
 
 
             # Variables FOR THE Rules FUZZY MODEL
+
 
 ap=ctrl.Antecedent(np.arange(0,11,1),'ap')
 an=ctrl.Antecedent(np.arange(0,11,1),'an')
@@ -625,13 +626,8 @@ def Calculate():
         cdlevel.input['bmi'] = BMI_value
         cdlevel.compute()
 
-        # cd.view(sim=cdlevel)
         print(str(cdlevel.output['cd']))
         
-        # Result(cdlevel.output['cd'])
-
+        
 Symptoms_input()
 Calculate()
-
-
-
