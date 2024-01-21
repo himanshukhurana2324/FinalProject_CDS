@@ -976,7 +976,7 @@ def Create_GUI():
     Abdominal_Pain_entry = Entry(root, textvariable=Abdominal_Pain_var, width=10)
     Abdominal_Pain_entry.grid(rowspan=1, row=2, column=4)
     Abdominal_Pain_button = Button(root, padx=12, pady=10, text='PLOT ABDOMINAL PAIN', fg='black', command=lambda: Abdominal_Pain_func()).grid(rowspan=1, row=2,column=5)
-    space_label = Label(root, text='', font=("Helvetica", 10), width=30).grid(rowspan=1, row=3, column=1)
+    space_label = Label(root, text='',font=("Helvetica", 10), width=30).grid(rowspan=1, row=3, column=1)
     Anemia_label_button = Button(root, pady=10, text='Anemia', font=("Helvetica", 12), fg='black', borderwidth=0, command=lambda: Anemia_label_func()).grid(rowspan=1, row=4, columnspan=2)
     Anemia_Scale = Scale(root, label='', from_=0, to=10, resolution=0.001, orient=HORIZONTAL, sliderlength=10, length=250, tickinterval=5, command=get_Anemia_value)
     Anemia_Scale.grid(rowspan=1, row=4, column=2,  columnspan=2)

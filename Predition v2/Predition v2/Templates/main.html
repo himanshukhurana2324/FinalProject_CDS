@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hi! Welcome Here To The Celiac Disease System...</h1> <br>
+    <Fieldset>
+        <legend>Time to Check your status....</legend>
+        <form action='output'>
+            <label for="ap"> Enter The Scale of your Abdominal Pain( 0.0--10.0) : </label>
+            <input type="text" id="ap" class="ap" name="ap"> <br><br>
+
+            <label for="an"> Enter The Scale of your Anemia( 0.0--10.0) : </label>
+            <input type="text" id="an" class="an" name="an"><br><br>
+
+            <label for="di"> Enter The Scale of your Diarrhea( 0.0--10.0) : </label>
+            <input type="text" id="di" class="di" name="di"> <br><br>
+
+            <label for="we"> Enter The Scale of your Weight Loss( 0.0--10.0) : </label>
+            <input type="text" id="we" class="we" name="we"> <br><br>
+
+            <label for="vo" name="vo"> Enter The Scale of your Vomiting( 0.0--10.0) : </label>
+            <input type="text" id="vo" class="vo" name="vo"> <br><br>
+
+            <label for="bmi"> Enter Your BMI Index( 0.0--40 ) : </label>
+            <input type="text" id="bmi" class="bmi" name="bmi"> <br><br>
+
+            <input type="submit" value="Kick Me to Check  !!!">
+
+        </form>
+    </Fieldset>
+    {% block content %}
+
+    {% endblock %}
+
+</html>
