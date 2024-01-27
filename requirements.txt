@@ -1,0 +1,6 @@
+numpy==1.26.1
+scikit-fuzzy==1.11.3
+networkx==3.2.1
+django==5.0
+pandas==2.1.2
+django-rest-framework==0.1.0
